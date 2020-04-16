@@ -1,0 +1,21 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    title 選択フォーム
+  body    
+    h1 選んでください
+    form(method="post" action=path)
+      input(type="radio" name="favorite" value=firstItem)
+      span #{firstItem}
+      input(type="radio" name="favorite" value=secondItem)
+      span #{secondItem}
+      input(type="radio" name="favorite" value=thirdItem)
+      span #{thirdItem}
+      input(type="radio" name="favorite" value=fourthItem)
+      span #{fourthItem}
+      input(type="radio" name="favorite" value=fifthItem)
+      span #{fifthItem}
+      input(type="radio" name="favorite" value=sixthItem)
+      span #{sixthItem}
+      button(type="submit") 投稿

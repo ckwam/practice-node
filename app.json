@@ -1,0 +1,8 @@
+{
+  "name": "Forms",
+  "description": "Forms about characters and roles",
+  "repository": "https://github.com/ckwam/practice-node",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/node.js"
+}
